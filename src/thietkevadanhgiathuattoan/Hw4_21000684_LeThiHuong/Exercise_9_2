@@ -1,0 +1,32 @@
+3.
+Để thuật toán Kruskal tìm kiếm một rừng bao phủ tối thiểu cho một
+đồ thị tùy ý, cần thực hiện một số thay đổi:
+
+Xử lý Đồ Thị Không Liên Thông: bằng cách kiểm tra mỗi cạnh xem nó có kết nối hai
+đỉnh thuộc các thành phần liên thông khác nhau hay không. Nếu có, cạnh đó được
+thêm vào rừng bao phủ tối thiểu.
+
+Xử lý Cây Đơn: Nếu đồ thị đã là một cây đơn (không có chu trình),
+thì không cần phải thực hiện thay đổi nào. Bởi vì mỗi thành
+phần liên thông trong cây là một cây con của nó, Kruskal sẽ chọn
+tất cả các cạnh để tạo thành rừng bao phủ tối thiểu mà không có các chu trình.
+
+Xử lý Chu Trình: Trong trường hợp đồ thị có chu trình, khi Kruskal
+thêm một cạnh vào rừng bao phủ tối thiểu, cần kiểm tra xem cạnh đó có
+tạo ra chu trình hay không. Nếu cạnh mới thêm vào tạo ra một chu trình với
+các cạnh đã được chọn trước đó, cạnh đó không được thêm vào rừng bao phủ tối
+thiểu và được bỏ qua.
+
+9.
+So sánh độ phức tạp thời gian và không gian giữa Prim và Kruskal
+- Độ phức tạp thời gian:
+    + Prim: Khi sử dụng cấu trúc heap: O(E*logV)
+            Khi đồ thị là cây đơn: O(E)
+    + Kruskal:  Độ phức tạp: O(ElogE) hoặc O(ElogV)
+                Khi đồ thị là cây đơn: O(ElogE)
+- Độ phức tạp không gian:
+    + Prim: Thường là O(V+E) hoặc O(V^2)
+    + Kruskal: O(V+E) hoặc O(E)
+
+=> Prim hiệu quả hơn khi E < V^2
+   Kruskal hiệu quả hơn khi E > V

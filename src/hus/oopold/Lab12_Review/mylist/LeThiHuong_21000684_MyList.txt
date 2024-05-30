@@ -1,0 +1,9 @@
+"C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\lib\idea_rt.jar=50995:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath D:\Java\Luna\out\production\Luna hus.oopold.Lab12_Review.mylist.TestMyList
+MyArrayList data: [1.0] [2.0] [3.0] [4.0] [5.0]
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "hus.oopold.Lab12_Review.mylist.MyList.get(int)" because "this.data" is null
+	at hus.oopold.Lab12_Review.mylist.BasicStatistic.max(BasicStatistic.java:19)
+	at hus.oopold.Lab12_Review.mylist.TestMyList.testMyArrayList(TestMyList.java:31)
+	at hus.oopold.Lab12_Review.mylist.TestMyList.main(TestMyList.java:9)
+
+Process finished with exit code 1
+ <Vì data không chuyển về được double theo source của thầy nên bị lỗi>

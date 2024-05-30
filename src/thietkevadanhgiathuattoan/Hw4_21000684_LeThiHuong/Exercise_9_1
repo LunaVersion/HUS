@@ -1,0 +1,13 @@
+10.
+Một số rào cản khi xây dựng một cây bao trùm tối thiểu bằng
+phương pháp tìm kiếm toàn diện:
+- Số lượng các cạnh trong đồ thị quá lớn'
+- Độ phức tạp tăng lên khi số lượng đỉnh và cạnh tăng lên
+
+13.
+Khi một đồ thị liên thông không có trọng số của cạnh, chúng ta
+xem tất cả các cạnh có trọng số như nhau.
+Thuật toán Prim chọn 1 đỉnh bất kì làm gốc, sau đó mở rộng cây
+
+=> Thuật toán Prim là tốt để giải quyết bài toán trên vì đơn giản
+bởi các cạnh được coi như bằng nhau.

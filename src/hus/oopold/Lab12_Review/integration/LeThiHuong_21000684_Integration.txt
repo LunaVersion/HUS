@@ -1,0 +1,9 @@
+"C:\Program Files\Eclipse Adoptium\jdk-21.0.2.13-hotspot\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\lib\idea_rt.jar=50860:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath D:\Java\Luna\out\production\Luna hus.oopold.Lab12_Review.integration.IntegrationCalculatorTestDrive
+Result of evaluating the polynomial: 11.0
+Result of evaluating the polynomial: 4.0
+Using Midpoint Rule: Integral = 3.0
+Using Trapezoid Rule: Integral = 3.0
+Using Simpson Rule: Integral = 3.0
+Results written to Integration_Result.txt
+
+Process finished with exit code 0

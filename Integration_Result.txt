@@ -1,0 +1,3 @@
+Using Midpoint Rule: Integral = 3.0
+Using Trapezoid Rule: Integral = 3.0
+Using Simpson Rule: Integral = 3.0

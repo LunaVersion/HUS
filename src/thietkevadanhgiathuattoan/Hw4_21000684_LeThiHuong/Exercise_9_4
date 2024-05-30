@@ -1,0 +1,6 @@
+7.
+Bắt đầu từ gốc của cây Huffman.
+Duyệt cây theo chiều sâu đệ quy, gán bit '0' cho mỗi cạnh con bên trái và bit '1' cho mỗi cạnh con bên phải.
+Khi đến một nút lá, ghi lại đường dẫn từ gốc đến nút lá đó là từ mã cho ký tự được liên kết với nút lá đó.
+Độ phức tạp thời gian của thuật toán này phụ thuộc vào kích thước của bảng chữ cái.
+Nó có độ phức tạp thời gian O(n), trong đó n là số lượng ký tự trong bảng chữ cái.
